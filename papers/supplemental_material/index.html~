@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>BendFields: Regularized Curvature Fields from Rough Concept Sketches</h1>
+<h2>Supplemental materials</h2>
+</br>
+<a href="Inspiration_sketches/inspiration.html">Inspiration sketches</a>
+</br></br>
+<a href="Sketches/sketches.html">Input sketches, with layers</a>
+</br></br>
+<a href="Realistic_renderings/rendering.html">Renderings</a> of our normal fields with a realistic environment map
+</br></br>
+<a href="Vectorization/vectorization.html">Vectorized curves produced by [Noris et al. 2013], in .pdf format</a>
+</br></br>
+<a href="GT_evaluation/ground_truth_eval.pdf">Evaluation on ground-truth shapes</a> with our complete pipeline and with ground-truth 2D constraints
+</body>
+</html>

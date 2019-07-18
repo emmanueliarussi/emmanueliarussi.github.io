@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>BeneField's Source Code readme</h1>
+We provide the C++ code to generate a crossfield (in the way BeneField's energy does) from a sparse set of constraints. The code is incomplete. If you want to compile it, you will need to write extra code to feed the algorithm from your own source of information (like a sketch). Also, you will need some extra libraries installed:
+<ul>
+  <li> <a href="http://opencv.org/"> OpenCV  </a> (at least 2.3.1)</li>
+  <li> <a href="http://qt-project.org/">  Qt  </a> (at least 4.8.0)</li>
+  <li> <a href="http://eigen.tuxfamily.org/index.php?title=Main_Page"> Eigen++ </a></li>
+</ul>
+The four main classes of our source code are shared. They contain the core of the BendField approach to optimize for a crossfield. The first two files are the data structures, storing the crossfield and period jumps. They are used by the classes contained in the next two files. <i>HarmonicCrossField</i> initializes the crossfield (Section 6, NON-ORTHOGONAL 2D CROSS FIELDS - Greedy mixed-integer optimization). Its output crossfield is taken as input by the <i>BendField</i> class (Section 6, NON-ORTHOGONAL 2D CROSS FIELDS - Nonlinear optimization). 
+<ul>
+<li> <b>CrossField</b> stores and handles crossfield representations (angle and vector-based) <a href="crossfield.h"> .h </a> | <a href="crossfield.cpp"> .cpp </a> </li>
+<li> <b>PeriodJumpField</b> handles crossfield period jumps (integer field expressing correspondence between neighbouring crosses in the CrossField) <a href="periodjumpfield.h"> .h </a> | <a href="periodjumpfield.cpp"> .cpp </a> </li>
+<li> <b>HarmonicCrossField</b> takes a partially-initialized period jump field (everywhere is 0 when possible) and a crossfield (with some sparse constraints defined). And returns an interpolated crossfield with a harmonic energy, and a fulfilled PeriodJumpField <a href="harmoniccrossfield.h"> .h </a> | <a href="harmoniccrossfield.cpp"> .cpp </a> </li>
+<li> <b>BendField</b> takes a initialized period jump field and a crossfield (with sparse constraints defined) and returns an interpolated crossfield with the BendField energy <a href="bendfield.h"> .h </a> | <a href="bendfield.cpp"> .cpp </a> </li>
+</ul>
+
+</body>
+</html>

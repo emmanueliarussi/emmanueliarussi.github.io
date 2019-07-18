@@ -1,0 +1,11 @@
+BENDFIELD CODE README
+*********************
+We provide here the code to generate a crossfield (in the way BeneField's energy does), from a sparse set of constraints. This code is incomplete. However, the main clases of the full version are available. If you want to compile it, you will need to write extra code to feed the algorithm from your own source of information (like a sketch). Also, you will need some extra libraries:
+
+* OpenCV (2.3.1)
+* Qt (4.8.0)
+* Eigen++ (http://eigen.tuxfamily.org/index.php?title=Main_Page)
+
+
+
+

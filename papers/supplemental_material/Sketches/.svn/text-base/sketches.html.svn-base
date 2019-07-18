@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<body>
+<table border=“1”>
+<tr>
+<td>  </td>
+<td> <h1> Input sketch </h1> </td>
+<td> <h1> Mask </h1> </td>
+<td> <h1> BendField </h1> </td>
+<td> <h1> Normals </h1> </td>
+</tr>
+<tr>
+<td> <h1> Bag </h1> </td>
+<td> <img src="bag/input_layers/input_full.png" width=600px </td>
+<td> <img src="bag/input_layers/mask_full.png" width=600px </td>
+<td> <img src="bag/hatching/hatching_full.png" width=600px </td>
+<td> <img src="bag/normals/normals_full.png" width=600px </td>
+</tr>
+<tr>
+<td> <h1> Bag - layer 1 </h1> </td>
+<td> <img src="bag/input_layers/l1.png" width=600px </td>
+<td> <img src="bag/input_layers/l1_mask.png" width=600px </td>
+<td> <img src="bag/hatching/hatching_l1.png" width=600px </td>
+<td> <img src="bag/normals/normals_l1.png" width=600px </td>
+</tr>
+<tr>
+<td> <h1> Bag - layer 2 </h1> </td>
+<td> <img src="bag/input_layers/l2.png" width=600px </td>
+<td> <img src="bag/input_layers/l2_mask.png" width=600px </td>
+<td> <img src="bag/hatching/hatching_l2.png" width=600px </td>
+<td> <img src="bag/normals/normals_l2.png" width=600px </td>
+</tr>
+<tr>
+<td> <h1> Bag - layer 3 </h1> </td>
+<td> <img src="bag/input_layers/l3.png" width=600px </td>
+<td> <img src="bag/input_layers/l3_mask.png" width=600px </td>
+<td> <img src="bag/hatching/hatching_l3.png" width=600px </td>
+<td> <img src="bag/normals/normals_l3.png" width=600px </td>
+</tr>
+</table>
+
+<br/><br/><br/>
+
+<table border=“1”>
+<tr>
+<td> <h1> Bracelet </h1> </td>
+<td> <img src="bracelet/input_layers/l1.png" width=600px </td>
+<td> <img src="bracelet/input_layers/l1_mask.png" width=600px </td>
+<td> <img src="bracelet/normals/normals_l1_3_0.01.png" width=600px </td>
+</tr>
+</table>
+
+<br/><br/><br/>
+
+<table border=“1”>
+<tr>
+<td> <h1> Camera </h1> </td>
+<td> <img src="camera/input_layers/input_all.png" width=600px </td>
+<td> <img src="camera/input_layers/mask_all.png" width=600px </td>
+<td> <img src="camera/normals/normals_all.png" width=600px </td>
+</tr>
+<tr>
+<td> <h1> Camera - layer 1 </h1> </td>
+<td> <img src="camera/input_layers/l1.png" width=600px </td>
+<td> <img src="camera/input_layers/l1_mask.png" width=600px </td>
+<td> <img src="camera/normals/normals_l1.png" width=600px </td>
+</tr>
+<tr>
+<td> <h1> Camera - layer 2 </h1> </td>
+<td> <img src="camera/input_layers/l2.png" width=600px </td>
+<td> <img src="camera/input_layers/l2_mask.png" width=600px </td>
+<td> <img src="camera/normals/normals_l2.png" width=600px </td>
+</tr>
+<tr>
+<td> <h1> Camera - layer 3 </h1> </td>
+<td> <img src="camera/input_layers/l3.png" width=600px </td>
+<td> <img src="camera/input_layers/l3_mask.png" width=600px </td>
+<td> <img src="camera/normals/normals_l3.png" width=600px </td>
+</tr>
+<tr>
+<td> <h1> Camera - layer 4 </h1> </td>
+<td> <img src="camera/input_layers/l4.png" width=600px </td>
+<td> <img src="camera/input_layers/l4_mask.png" width=600px </td>
+<td> <img src="camera/normals/normals_l4.png" width=600px </td>
+</tr>
+</table>
+
+<br/><br/><br/>
+
+<table border=“1”>
+<tr>
+<td> <h1> Chair </h1> </td>
+<td> <img src="chair/input_layers/l1.png" width=600px </td>
+<td> <img src="chair/input_layers/l1_mask.png" width=600px </td>
+<td> <img src="chair/hatching/hatching_l1.png" width=600px </td>
+<td> <img src="chair/normals/normals_l1.png" width=600px </td>
+</tr>
+</table>
+
+<br/><br/><br/>
+
+<table border=“1”>
+<tr>
+<td> <h1> Coffee </h1> </td>
+<td> <img src="coffee/input_layers/input_all.png" width=600px </td>
+<td> <img src="coffee/input_layers/l1_mask.png" width=600px </td>
+<td> <img src="coffee/hatching/hatching_all.png" width=600px </td>
+<td> <img src="coffee/normals/normals_all.png" width=600px </td>
+</tr>
+<tr>
+<td> <h1> Coffee - layer 1 </h1> </td>
+<td> <img src="coffee/input_layers/l1.png" width=600px </td>
+<td> <img src="coffee/input_layers/l1_mask.png" width=600px </td>
+<td> <img src="coffee/hatching/hatching_l1.png" width=600px </td>
+<td> <img src="coffee/normals/normals_l1.png" width=600px </td>
+</tr>
+<tr>
+<td> <h1> Coffee - layer 2 </h1> </td>
+<td> <img src="coffee/input_layers/l2.png" width=600px </td>
+<td> <img src="coffee/input_layers/l2_mask.png" width=600px </td>
+<td> <img src="coffee/hatching/hatching_l2.png" width=600px </td>
+<td> <img src="coffee/normals/normals_l2.png" width=600px </td>
+</tr>
+</table>
+
+<br/><br/><br/>
+
+<table border=“1”>
+<tr>
+<td> <h1> Stapler </h1> </td>
+<td> <img src="stapler/input_layers/input_all.png" width=600px </td>
+<td> <img src="stapler/input_layers/mask_all.png" width=600px </td>
+<td> <img src="stapler/hatching/hatching_all.png" width=600px </td>
+<td> <img src="stapler/normals/normals_all.png" width=600px </td>
+</tr>
+<tr>
+<td> <h1> Stapler - layer 1 </h1> </td>
+<td> <img src="stapler/input_layers/l1.png" width=600px </td>
+<td> <img src="stapler/input_layers/l1_mask.png" width=600px </td>
+<td> <img src="stapler/hatching/hatching_l1.png" width=600px </td>
+<td> <img src="stapler/normals/normals_l1.png" width=600px </td>
+</tr>
+<tr>
+<td> <h1> Stapler - layer 2 </h1> </td>
+<td> <img src="stapler/input_layers/l2.png" width=600px </td>
+<td> <img src="stapler/input_layers/l2_mask.png" width=600px </td>
+<td> <img src="stapler/hatching/hatching_l2.png" width=600px </td>
+<td> <img src="stapler/normals/normals_l2.png" width=600px </td>
+</tr>
+<tr>
+<td> <h1> Stapler - layer 3 </h1> </td>
+<td> <img src="stapler/input_layers/l3.png" width=600px </td>
+<td> <img src="stapler/input_layers/l3_mask.png" width=600px </td>
+<td> <img src="stapler/hatching/hatching_l3.png" width=600px </td>
+<td> <img src="stapler/normals/normals_l3.png" width=600px </td>
+</tr>
+</table>
+
+<br/><br/><br/>
+
+<table border=“1”>
+<tr>
+<td> <h1> Stool </h1> </td>
+<td> <img src="stool/input_layers/l1.png" width=600px </td>
+<td> <img src="stool/input_layers/l1_mask.png" width=600px </td>
+<td> <img src="stool/hatching/hatching_l1.png" width=600px </td>
+<td> <img src="stool/normals/normals_l1.png" width=600px </td>
+</tr>
+</table>
+
+<br/><br/><br/>
+
+<table border=“1”>
+<tr>
+<td> <h1> Toothpaste </h1> </td>
+<td> <img src="toothpaste/input_layers/input_all.png" width=600px </td>
+<td> <img src="toothpaste/input_layers/mask_all.png" width=600px </td>
+<td> <img src="toothpaste/normals/normals_all.png" width=600px </td>
+</tr>
+<tr>
+<td> <h1> Toothpaste - layer 1 </h1> </td>
+<td> <img src="toothpaste/input_layers/l1.png" width=600px </td>
+<td> <img src="toothpaste/input_layers/l1_mask.png" width=600px </td>
+<td> <img src="toothpaste/normals/normals_l1.png" width=600px </td>
+</tr>
+<tr>
+<td> <h1> Toothpaste - layer 2 </h1> </td>
+<td> <img src="toothpaste/input_layers/l2.png" width=600px </td>
+<td> <img src="toothpaste/input_layers/l2_mask.png" width=600px </td>
+<td> <img src="toothpaste/normals/normals_l2.png" width=600px </td>
+</tr>
+</table>
+
+<br/><br/><br/>
+
+<table border=“1”>
+<tr>
+<td> <h1> Vacuum </h1> </td>
+<td> <img src="vacuum/input_layers/input_all.png" width=600px </td>
+<td> <img src="vacuum/input_layers/mask_all.png" width=600px </td>
+<td> <img src="vacuum/hatching/hatching_all.png" width=600px </td>
+<td> <img src="vacuum/normals/normals_all.png" width=600px </td>
+</tr>
+<tr>
+<td> <h1> Vacuum - layer 1 </h1> </td>
+<td> <img src="vacuum/input_layers/l1.png" width=600px </td>
+<td> <img src="vacuum/input_layers/l1_mask.png" width=600px </td>
+<td> <img src="vacuum/hatching/hatching_l1.png" width=600px </td>
+<td> <img src="vacuum/normals/normals_l1.png" width=600px </td>
+</tr>
+<tr>
+<td> <h1> Vacuum - layer 2 </h1> </td>
+<td> <img src="vacuum/input_layers/l2.png" width=600px </td>
+<td> <img src="vacuum/input_layers/l2_mask.png" width=600px </td>
+<td> <img src="vacuum/hatching/hatching_l2.png" width=600px </td>
+<td> <img src="vacuum/normals/normals_l2.png" width=600px </td>
+</tr>
+<tr>
+<td> <h1> Vacuum - layer 3 </h1> </td>
+<td> <img src="vacuum/input_layers/l3.png" width=600px </td>
+<td> <img src="vacuum/input_layers/l3_mask.png" width=600px </td>
+<td> <img src="vacuum/hatching/hatching_l3.png" width=600px </td>
+<td> <img src="vacuum/normals/normals_l3.png" width=600px </td>
+</tr>
+<tr>
+<td> <h1> Vacuum - layer 4 </h1> </td>
+<td> <img src="vacuum/input_layers/l4.png" width=600px </td>
+<td> <img src="vacuum/input_layers/l4_mask.png" width=600px </td>
+<td> <img src="vacuum/hatching/hatching_l4.png" width=600px </td>
+<td> <img src="vacuum/normals/normals_l4.png" width=600px </td>
+</tr>
+</table>
+
+<br/><br/><br/>
+
+<table border=“1”>
+<tr>
+<td> <h1> Clean water jug </h1> </td>
+<td> <img src="water_jug/clean/input_layers/input_all.png" width=600px </td>
+<td> <img src="water_jug/clean/input_layers/mask_all.png" width=600px </td>
+<td> <img src="water_jug/clean/hatching/hatching_all.png" width=600px </td>
+<td> <img src="water_jug/clean/normals/normals_all.png" width=600px </td>
+</tr>
+<tr>
+<td> <h1> Clean water jug - layer 1 </h1> </td>
+<td> <img src="water_jug/clean/input_layers/l1.png" width=600px </td>
+<td> <img src="water_jug/clean/input_layers/l1_mask.png" width=600px </td>
+<td> <img src="water_jug/clean/hatching/l1.png" width=600px </td>
+<td> <img src="water_jug/clean/normals/l1.png" width=600px </td>
+</tr>
+<tr>
+<td> <h1> Clean water jug - layer 2 </h1> </td>
+<td> <img src="water_jug/clean/input_layers/l2.png" width=600px </td>
+<td> <img src="water_jug/clean/input_layers/l2_mask.png" width=600px </td>
+<td> <img src="water_jug/clean/hatching/l2.png" width=600px </td>
+<td> <img src="water_jug/clean/normals/l2.png" width=600px </td>
+</tr>
+</table>
+
+<br/><br/><br/>
+
+<table border=“1”>
+<tr>
+<td> <h1> Ring </h1> </td>
+<td> <img src="ring/input_layers/32.png" width=600px </td>
+<td> <img src="ring/input_layers/32_mask.png" width=600px </td>
+<td> <img src="ring/hatching/hatching_all.png" width=600px </td>
+<td> <img src="ring/normals/normals_all.png" width=600px </td>
+</tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>BendFields - Source Code readme</h1>
+<p>We provide pseudo-C++ code to generate a non-orthogonal 2D crossfield from a sparse set of constraints based on the BendFields energy. 
+While not directly compilable, this source code should form a good basis for reproducing our work. To use the code you need to
+provide sparse constraints on the crossfield.
+</p>
+<p>
+We provide four main classes. The first two classes implement the data structures to store the crossfield and the transition functions. 
+The class <i>HarmonicCrossField</i> initializes the crossfield (Section 6, NON-ORTHOGONAL 2D CROSS FIELDS - Greedy mixed-integer optimization). 
+Its output crossfield is taken as input by the <i>BendField</i> class (Section 6, NON-ORTHOGONAL 2D CROSS FIELDS - Nonlinear optimization). 
+<ul>
+<li> <b>CrossField</b> stores and handles crossfield representations (angle and vector-based) <a href="crossfield.h"> .h </a> | <a href="crossfield.cpp"> .cpp </a> </li>
+<li> <b>PeriodJumpField</b> handles crossfield transition functions (integer field expressing correspondence between neighbouring crosses in the CrossField, also called <i>period jump</i>) <a href="periodjumpfield.h"> .h </a> | <a href="periodjumpfield.cpp"> .cpp </a> </li>
+<li> <b>HarmonicCrossField</b> takes a partially-initialized period jump field (initialized to 0 when possible) and a crossfield (with some sparse constraints defined), and returns an interpolated crossfield with a harmonic energy, and a complete PeriodJumpField <a href="harmoniccrossfield.h"> .h </a> | <a href="harmoniccrossfield.cpp"> .cpp </a> </li>
+<li> <b>BendField</b> takes a initialized period jump field and a crossfield (with sparse constraints defined) and returns a crossfield interpolated with the BendField energy <a href="bendfield.h"> .h </a> | <a href="bendfield.cpp"> .cpp </a> </li>
+</ul>
+
+<p>
+Our code is based on the following libraries:
+<ul>
+  <li> <a href="http://opencv.org/"> OpenCV  </a> (at least 2.3.1)</li>
+  <li> <a href="http://qt-project.org/">  Qt  </a> (at least 4.8.0)</li>
+  <li> <a href="http://eigen.tuxfamily.org/index.php?title=Main_Page"> Eigen++ </a></li>
+</ul>
+</p>
+
+<p>
+We plan to release an extended version of our source code which will include the estimation of surface normals from the 2D crossfield (Section 5.3 of our paper).
+Please visit the webpage of the project for updates.
+</p>
+</body>
+</html>

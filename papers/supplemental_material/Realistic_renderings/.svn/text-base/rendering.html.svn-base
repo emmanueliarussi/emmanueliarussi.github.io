@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<body>
+<table border=“1”>
+<tr>
+<td>  </td>
+<td> <h1> Input sketch </h1> </td>
+<td> <h1> Normals </h1> </td>
+<td> <h1> Rendering </h1> </td>
+</tr>
+
+
+
+<tr>
+<td> <h1> Coffee machine </h1> </td>
+<td> <img src="coffee/input_all.png" width=600px </td>
+<td> <img src="coffee/normals_all.png" width=600px </td>
+<td> <img src="coffee/rendering.png" width=600px </td>
+</tr>
+
+<tr>
+<td> <h1> Water jug </h1> </td>
+<td> <img src="jug/input_all.png" width=600px </td>
+<td> <img src="jug/normals_all.png" width=600px </td>
+<td> <img src="jug/rendering.png" width=600px </td>
+</tr>
+
+<tr>
+<td> <h1> Bag </h1> </td>
+<td> <img src="bag/input_full.png" width=600px </td>
+<td> <img src="bag/normals_full.png" width=600px </td>
+<td> <img src="bag/rendering.png" width=600px </td>
+</tr>
+
+<tr>
+<td> <h1> Stapler </h1> </td>
+<td> <img src="stapler/input_all.png" width=600px </td>
+<td> <img src="stapler/normals_all.png" width=600px </td>
+<td> <img src="stapler/rendering.png" width=600px </td>
+</tr>
+
+<tr>
+<td> <h1> Vacuum cleaner </h1> </td>
+<td> <img src="vacuum/input_all.png" width=600px </td>
+<td> <img src="vacuum/normals_all.png" width=600px </td>
+<td> <img src="vacuum/rendering.png" width=600px </td>
+</tr>
+
+</table>
+
+</body>
+</html>
