@@ -14,14 +14,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.x"
-
       - name: Fetch mentions from Google Alerts
         env:
           GOOGLE_ALERTS_RSS_URL: ${{ secrets.GOOGLE_ALERTS_RSS_URL }}
-        run: python scripts/fetch_mentions.py
+        run: python3 scripts/fetch_mentions.py
 
       - name: Commit updated mentions
         run: |
