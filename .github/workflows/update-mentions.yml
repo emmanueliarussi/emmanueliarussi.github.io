@@ -1,0 +1,36 @@
+name: Update media mentions
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"   # twice a day
+  workflow_dispatch:          # allow manual runs from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Fetch mentions from Google Alerts
+        env:
+          GOOGLE_ALERTS_RSS_URL: ${{ secrets.GOOGLE_ALERTS_RSS_URL }}
+        run: python scripts/fetch_mentions.py
+
+      - name: Commit updated mentions
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet -- data/mentions.json; then
+            git add data/mentions.json
+            git commit -m "chore: update media mentions"
+            git push
+          else
+            echo "No changes to media mentions."
+          fi
