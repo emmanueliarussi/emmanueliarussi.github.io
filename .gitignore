@@ -5,3 +5,6 @@
 # Editor / OS cruft
 Thumbs.db
 *.swp
+
+# Python
+__pycache__/

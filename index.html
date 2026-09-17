@@ -53,12 +53,13 @@
 </head>
 
 <body>
+    <a class="skip-link" href="#about">Skip to content</a>
 
     <!-- Navigation -->
     <header class="nav">
         <div class="nav-inner">
             <a class="nav-brand" href="#top">Emmanuel Iarussi</a>
-            <nav class="nav-links">
+            <nav class="nav-links" aria-label="Main navigation">
                 <a href="#about">About</a>
                 <a href="#news">News</a>
                 <a href="#media">Media</a>
@@ -75,8 +76,10 @@
         <section class="hero" id="about">
             <div class="container">
                 <div class="hero-grid">
-                    <img class="hero-photo" src="img/profile.jpg" alt="Portrait of Emmanuel Iarussi">
-                    <div>
+                    <figure class="hero-portrait">
+                        <img class="hero-photo" src="img/profile.jpg" alt="Portrait of Emmanuel Iarussi" width="666" height="701" fetchpriority="high">
+                    </figure>
+                    <div class="hero-copy">
                         <h1 class="hero-name">Emmanuel Iarussi</h1>
                         <p class="hero-role">Computer Scientist · CONICET &amp; Universidad Torcuato Di Tella</p>
                         <p class="hero-bio">
@@ -314,6 +317,7 @@
                 <p class="media-note">
                     <span class="media-kind is-auto">auto</span>
                     New press mentions are added automatically from a Google Alerts feed.
+                </p>
 
                 <h3 class="subsection-title">Articles &amp; press
                     <span class="auto-badge" title="New items are added automatically from a Google Alerts RSS feed">auto-updated</span>
